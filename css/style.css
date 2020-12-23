@@ -1,0 +1,62 @@
+body{
+   font-size: 18px;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    }
+
+    .main{
+        height: 90vh;
+        background-image: url(../img/bg.jpg);
+        background-size: cover;
+        /* margin-bottom: 10px; */
+    }
+
+    .about{
+        background-color: #e7f1ff;
+        padding: 10px 0 10px 0;
+    }
+
+    .war{
+        margin-bottom: 10px;
+    }
+    .card-body{
+        background-color: #e7f1ff;
+    }
+    .fa-bullseye {
+        color: #DC3545;
+        font-size: 2rem;
+    }
+
+    
+
+    .navbar-brand p{
+        color: #DC3545;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 1.4rem;
+        border: solid 2px #DC3545;
+        border-radius: 50%;
+        padding: 10px;
+
+    }
+
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome__title{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+
+    .welcome__text{
+        padding-bottom: 20px;
+    }
