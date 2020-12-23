@@ -1,0 +1,9 @@
+{
+	"port":8083,
+        "port_socket":8087,
+        "arangoUri":"http://192.168.88.203:8529",
+        "db_user":"WEB",
+        "db_password":"WEB",
+        "db_name":"WEB",
+        "secret":"халера наглела"
+}

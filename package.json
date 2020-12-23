@@ -1,0 +1,36 @@
+{
+  "name": "super_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "start": "nodemon bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "super_site"
+  ],
+  "author": "NovikovE",
+  "license": "ISC",
+  "dependencies": {
+    "arangojs": "^7.2.0",
+    "better-console": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "consolidate": "^0.16.0",
+    "cookie-parser": "^1.4.5",
+    "es6-error": "^4.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "linkedlist": "^1.0.1",
+    "lodash": "^4.17.20",
+    "multi-part": "^3.0.0",
+    "mustache": "^3.1.0",
+    "path": "^0.12.7",
+    "q": "^1.5.1",
+    "retry": "^0.12.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^3.0.4",
+    "stack-trace": "0.0.10",
+    "util": "^0.12.3"
+  }
+}
