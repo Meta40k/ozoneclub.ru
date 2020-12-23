@@ -10,6 +10,8 @@ app.get('/', (req, res, next) => {
     res.render('index');
 });
 
-
+app.get('/news', (req, res, next) => {
+    res.render('news.html');
+});
 
 module.exports = app;
