@@ -38,22 +38,22 @@ app.post('/sendMail', (req, res, next) => {
             console.log('Email sent: ' + info.response);
         }
     });
-    var mailOptions = {
-        from: 'zakaz@ozoneclub.ru',
-        to: 'dstsarev@mail.ru',
-        subject: 'Заказ с сайта ozoneclub.ru',
-        text: ` игра: '${req.body.type}', имя: '${req.body.name}' ,  почта: '${req.body.email}' ,  телефон:  '${req.body.tel}',  коммент:  '${req.body.comment}'`
-    };
+    // var mailOptions = {
+    //     from: 'zakaz@ozoneclub.ru',
+    //     to: 'dstsarev@mail.ru',
+    //     subject: 'Заказ с сайта ozoneclub.ru',
+    //     text: ` игра: '${req.body.type}', имя: '${req.body.name}' ,  почта: '${req.body.email}' ,  телефон:  '${req.body.tel}',  коммент:  '${req.body.comment}'`
+    // };
 
-    transporter.sendMail(mailOptions, function(error, info) {
-        if (error) {
-            console.log(error);
-            res.json({ done: false, error: error })
-        } else {
-            console.log('Email sent: ' + info.response);
-            res.json({ done: true })
-        }
-    });
+    // transporter.sendMail(mailOptions, function(error, info) {
+    //     if (error) {
+    //         console.log(error);
+    //         res.json({ done: false, error: error })
+    //     } else {
+    //         console.log('Email sent: ' + info.response);
+    //         res.json({ done: true })
+    //     }
+    // });
 
 
 })
