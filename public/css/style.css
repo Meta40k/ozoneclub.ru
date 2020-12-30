@@ -69,6 +69,10 @@ img {
     padding: 10px;
 }
 
+.navbar-text{
+    padding-right: 1.5rem;
+}
+
 .welcome {
     display: flex;
     flex-direction: column;
