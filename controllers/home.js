@@ -24,20 +24,6 @@ app.post('/sendMail', (req, res, next) => {
         }
     });
 
-    var mailOptions = {
-        from: 'zakaz@ozoneclub.ru',
-        to: '630127@mail.ru',
-        subject: 'Заказ с сайта ozoneclub.ru',
-        text: ` игра: '${req.body.type}', имя: '${req.body.name}' ,  почта: '${req.body.email}' ,  телефон:  '${req.body.tel}',  коммент:  '${req.body.comment}'`
-    };
-
-    transporter.sendMail(mailOptions, function(error, info) {
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
     // var mailOptions = {
     //     from: 'zakaz@ozoneclub.ru',
     //     to: 'dstsarev@mail.ru',
@@ -48,12 +34,26 @@ app.post('/sendMail', (req, res, next) => {
     // transporter.sendMail(mailOptions, function(error, info) {
     //     if (error) {
     //         console.log(error);
-    //         res.json({ done: false, error: error })
     //     } else {
     //         console.log('Email sent: ' + info.response);
-    res.json({ done: true })
-        //     }
-        // });
+    //     }
+    // });
+    var mailOptions = {
+        from: 'zakaz@ozoneclub.ru',
+        to: '630127@mail.ru',
+        subject: 'Заказ с сайта ozoneclub.ru',
+        text: ` игра: '${req.body.type}', имя: '${req.body.name}' ,  почта: '${req.body.email}' ,  телефон:  '${req.body.tel}',  коммент:  '${req.body.comment}'`
+    };
+
+    transporter.sendMail(mailOptions, function(error, info) {
+        if (error) {
+            console.log(error);
+            res.json({ done: false, error: error })
+        } else {
+            console.log('Email sent: ' + info.response);
+            res.json({ done: true })
+        }
+    });
 
 
 })
