@@ -7,8 +7,7 @@ function sendMail() {
     data.email = document.getElementById('userEmail').value
     data.tel = document.getElementById('userTel').value
     data.comment = document.getElementById('userComment').value
-
-    if (data.name.length < 3 || data.name.email < 5) {
+    if (data.name.length < 3 || data.name.email < 5 || data.tel.length != 18) {
         document.getElementById('alert').hidden = false
         setTimeout(() => { document.getElementById('alert').hidden = true }, 3000)
     } else {
