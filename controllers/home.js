@@ -51,9 +51,9 @@ app.post('/sendMail', (req, res, next) => {
     //         res.json({ done: false, error: error })
     //     } else {
     //         console.log('Email sent: ' + info.response);
-    //         res.json({ done: true })
-    //     }
-    // });
+    res.json({ done: true })
+        //     }
+        // });
 
 
 })
