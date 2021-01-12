@@ -23,7 +23,7 @@ body {
     margin: 10px;
 }
 
-img {
+img { /* адаптивные картинки */
     display: block;
     height: auto;
     max-width: 100%;
@@ -33,18 +33,66 @@ img {
     width: 150px;
 }
 
+/* ----------MAIN---------- */
 .main {
-    height: 90vh;
-    /* background-image: url(/public/img/bg.jpg); */
+    height: 100vh;
     background-image: url(../img/bg.jpg);
-    background-size: cover;
-    /* margin-bottom: 10px; */
+    background-size: cover;  
 }
+/* -----------END---------- */
+/* ----------MAIN---------- */
 
+
+
+/* ------------------------- */
+/* ----------ABOUT---------- */
+/* ------------------------- */
 .about {
     background-color: #e7f1ff;
     padding: 10px 0 10px 0;
 }
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.welcome__text {
+    padding-bottom: 20px;
+}
+
+.welcome__text p {
+    text-indent: 1.1em;
+}
+/* ------------------------- */
+/* -----------END---------- */
+/* ----------ABOUT---------- */
+/* ------------------------- */
+
+
+/* ----------POLOSKA---------- */
+/* .mini{
+    opacity:0.8;
+    -moz-opacity:0.8;
+    filter: alpha(opacity=80) black;
+    -khtml-opacity: 0.8;
+    background-color:#000;
+} */
+.poloska{ 
+    box-shadow: 0 0 30px rgba(0,0,0,0.5); /* Параметры тени */   
+}
+.poloska_card{
+    border: none;
+}
+/* ------------END---------- */
+/* ----------POLOSKA---------- */
 
 .war {
     margin-bottom: 10px;
@@ -73,19 +121,3 @@ img {
     padding-right: 1.5rem;
 }
 
-.welcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.welcome__title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-top: 50px;
-}
-
-.welcome__text {
-    padding-bottom: 20px;
-}
