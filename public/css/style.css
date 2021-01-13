@@ -122,7 +122,41 @@ img { /* адаптивные картинки */
 }
 
 
+/* Страница Контактов */
+
+.contact{
+    background-image: url(../img/confull.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.contact_data{
+   
+}
 
 .yandex_map{
-    box-shadow: 0 0 30px rgba(0,0,0,0.5); /* Параметры тени */   
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    margin: 20px 0 20px 0;  
+}
+
+
+.contact_tel p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.contact_map{
+    margin: 10px 0 10px 0;
+}
+.contact_mail{
+
+}
+.contact_mail p{
+    display: inline;
+    margin-left: 15px;
+}
+.contact_mail i{
+    
 }
