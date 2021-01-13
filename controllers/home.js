@@ -14,6 +14,10 @@ app.get('/news', (req, res, next) => {
     res.render('news.html');
 });
 
+app.get('/contact', (req, res, next) => {
+    res.render('contact.html');
+});
+
 app.post('/sendMail', (req, res, next) => {
     console.log(req.body)
     var transporter = nodemailer.createTransport({

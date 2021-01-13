@@ -121,3 +121,8 @@ img { /* адаптивные картинки */
     padding-right: 1.5rem;
 }
 
+
+
+.yandex_map{
+    box-shadow: 0 0 30px rgba(0,0,0,0.5); /* Параметры тени */   
+}
