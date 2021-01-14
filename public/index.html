@@ -74,8 +74,6 @@
                         <a href="https://vk.com/ozoneclub" class="btn btn-danger btn-sm" target="_blank"><i class="fab fa-vk"></i></a>
                         <a href="https://www.instagram.com/ozoneclub.ru/" class="btn btn-danger btn-sm" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.youtube.com/channel/UCcI-A97go0m_eq_CYpKrLbw/videos" class="btn btn-danger btn-sm" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a href="mailto:zakaz@ozoneclub.ru" type="button" class="btn btn-danger btn-sm" target="_blank"><i class="fas fa-envelope"></i></a>
-                        <a href="tel:+7 (4862) 630404" type="button" class="btn btn-danger btn-sm"><i class="fas fa-phone-alt"></i></a>
                     </span>
                 </div>
             </div>
@@ -134,7 +132,70 @@
         </div>
     </section>
 
-    <br>
+
+
+    <section class="advantages container-fluid">
+        <div class="row">
+           <div class="advantages-heading text-center mt-4"><h2>Наши преимущества</h2></div>
+           
+        </div>
+
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="advantages-block">
+                        <div class="advantages-logo text-center mt-3">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <div class="advantages-name text-center mt-2">
+                            <h4>Инфраструктура</h4>
+                        </div>
+                        <div class="advantages-description mt-3">
+                            <p>За долгие годы мы сформировали качественную инфраструктуру, с отапливаемыми раздевалками, удобными беседками и зоной безопасности, где люди могут смотреть игру, не боясь попадания шарика. А так же парковка и зона для мангала</p>
+                        </div>
+                        <div class="advantages-more">
+                            <p>Узнать больше</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="advantages-block">
+                        <div class="advantages-logo text-center mt-3">
+                            <i class="fas fa-campground"></i>
+                        </div>
+                        <div class="advantages-name text-center mt-2">
+                            <h4>Площадка для игры</h4>
+                        </div>
+                        <div class="advantages-description mt-3">
+                            <p>1000 квадратных метров для ведения боя. Разнообразные укрытия, щиты, естественный ланшафт и деревья. Продуманные направления атаки и двухэтажный форт для защиты. Огромное количество тактик и стратегий игры.  </p>
+                        </div>
+                        <div class="advantages-more">
+                            <p>Узнать больше</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="advantages-block">
+                        <div class="advantages-logo text-center mt-3">
+                            <i class="far fa-calendar-check"></i>
+                        </div>
+                        <div class="advantages-name text-center mt-2">
+                            <h4>Организация</h4>
+                        </div>
+                        <div class="advantages-description mt-3">
+                            <p>Постоянные поставки шариков для пейнтбола, собственные компрессоры высого давления, раздевалки, судейство, площадка. Всё это, даёт нам возможность обслужить свыше 100 человек за день. </p>
+                        </div>
+                        <div class="advantages-more">
+                            <p>Узнать больше</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>  <!-- end advantages -->
+
+<br>
+<br>
 
     <section class="container faq">
         <div class="accordion" id="accordionExample">
@@ -254,13 +315,13 @@
                     
                     <div class="input-group">
                         <span class="input-group-text">Комментарий</span>
-                        <textarea id="userComment" class="form-control" placeholder="не обязательно" aria-label="userComment"></textarea>
+                        <textarea id="userComment" class="form-control" placeholder="" aria-label="userComment"></textarea>
                     </div>
 
                 </div>
                 <div class="modal-footer">
-                    <button id='btnS' type="button" onclick="sendMail()" class="btn btn-primary">Отправить</button>
-                    <button id="btclose" type="button" class="btn btn-danger" data-bs-dismiss="modal">Закрыть</button>
+                    <button id="btclose" type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Закрыть</button>
+                    <button id='btnS' type="button" onclick="sendMail()" class="btn btn-danger">Отправить</button>
                 </div>
                 <div id="alert" class="alert alert-danger" hidden role="alert">
                     Заполните поля: телефон, эл.почта и имя.

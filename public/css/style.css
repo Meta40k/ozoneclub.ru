@@ -78,13 +78,7 @@ img { /* адаптивные картинки */
 
 
 /* ----------POLOSKA---------- */
-/* .mini{
-    opacity:0.8;
-    -moz-opacity:0.8;
-    filter: alpha(opacity=80) black;
-    -khtml-opacity: 0.8;
-    background-color:#000;
-} */
+
 .poloska{ 
     box-shadow: 0 0 30px rgba(0,0,0,0.5); /* Параметры тени */   
 }
@@ -159,4 +153,30 @@ img { /* адаптивные картинки */
 }
 .contact_mail i{
     
+}
+
+
+
+
+.advantages{
+    background-color: #e7f1ff;
+}
+
+.advantages-block{
+    /* border: 1px solid grey; */
+}
+
+.advantages-logo i{
+    font-size: 4rem;
+    color: #DC3545;
+}
+
+.advantages-more{
+    cursor: pointer;
+    font-size: 0.8rem;
+
+}
+
+.advantages-description{
+    text-indent: 1.2em;
 }
