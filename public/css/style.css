@@ -1,5 +1,11 @@
+@font-face{
+    font-family: "ubuntu";
+    src: url("../fonts/ubuntu/Ubuntu-Regular.ttf");
+}
+
 body {
     font-size: 18px;
+    font-family: ubuntu;
 }
 
 .columns {
@@ -156,7 +162,9 @@ img { /* адаптивные картинки */
 }
 
 
-
+/* ------------------------- */
+/* ----------advantages---------- */
+/* ------------------------- */
 
 .advantages{
     background-color: #e7f1ff;
@@ -180,4 +188,26 @@ img { /* адаптивные картинки */
 
 .advantages-description{
     text-indent: 1.2em;
+    font-family: ubuntu;
+}
+/* ------------------------- */
+/* ------------END-------- */
+/* ----------advantages---------- */
+/* ------------------------- */
+
+
+
+
+
+.info_other{
+    
+}
+
+.info_other_icon{
+    font-size: 4rem;
+    color: #DC3545;
+}
+
+.info_other-text p{
+    font-size: 1.5rem;
 }
