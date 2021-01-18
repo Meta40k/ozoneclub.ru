@@ -235,10 +235,14 @@ img { /* адаптивные картинки */
     border-radius:50%;
     text-align:center;
     background:#e7f1ff;
-    margin:7px auto;
+    /* margin:7px auto; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
    }
    .pricingimg img{
-    padding:28px 0;
+    /* padding:28px 0; */
    }
    .pricingouterimg{
     width:236px;
@@ -340,11 +344,11 @@ img { /* адаптивные картинки */
     .pricingimg {
     width: 184px;
     height: 184px;
-    margin: 7px auto;
+    /* margin: 7px auto; */
     } 
    
     .pricingimg img {
-    padding: 26px 0;
+    /* padding: 26px 0; */
     width: 140px;
     } 
     }
@@ -360,11 +364,11 @@ img { /* адаптивные картинки */
    .pricingimg {
     width: 144px;
     height: 144px;
-    margin: 7px auto;
+    /* margin: 7px auto; */
    } 
    
    .pricingimg img {
-    padding: 26px 0;
+    /* padding: 26px 0; */
     width: 95px;
    } 
    
@@ -417,17 +421,13 @@ img { /* адаптивные картинки */
     } 
     
     .pricingimg {
-    width: 184px;
+    /* width: 184px;
     height: 184px;
-    margin: 7px auto;
+    margin: 7px auto; */
     } 
    
     .pricingimg img {
-    padding: 26px 0;
-    width: 140px;
+    /* padding: 26px 0;
+    width: 140px; */
     } 
     }
-
-.attachment-pricing{
-    
-}
