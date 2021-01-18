@@ -235,12 +235,9 @@ img { /* адаптивные картинки */
     border-radius:50%;
     text-align:center;
     background:#e7f1ff;
-    /* margin:7px auto; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; */
+    margin:7px auto;
    }
+   
    .pricingimg img{
     /* padding:28px 0; */
    }
