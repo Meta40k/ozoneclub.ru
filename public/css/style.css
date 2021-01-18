@@ -211,3 +211,223 @@ img { /* адаптивные картинки */
 .info_other-text p{
     font-size: 1.5rem;
 }
+
+
+
+
+
+/* блок с ценами */
+
+   /* - Pricing Style */
+   .pricinginner {
+    text-align:center;
+    box-shadow:0 5px 17px #999;
+   }
+   .pricingblock {
+    margin-bottom:55px;
+   }
+   .pricingblock:last-child {
+    margin-bottom:0;
+   }
+   .pricingimg{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    text-align:center;
+    background:#e7f1ff;
+    margin:7px auto;
+   }
+   .pricingimg img{
+    padding:28px 0;
+   }
+   .pricingouterimg{
+    width:236px;
+    height:236px;
+    margin:25px auto 20px auto;
+    border-radius:50%;
+    border:1px dashed #fff;
+   }
+   .pricingtitle{
+    color:#DC3545;
+    font-size:36px;
+    font-family: ubuntu;
+    line-height:39px; 
+   }
+   .pricingtitleunderline{
+    width:115px;
+    height:1px;
+    margin:5px auto 10px auto;
+    background:#DC3545;
+   }
+   .pricingcontent{
+    font-size:12px;
+    padding:0 12%;
+    line-height:22px;
+   }
+   .buynow{
+    font-size:16px;
+    padding:15px 30px;
+    background:#DC3545;
+    color:#fff;
+    border:none;
+    text-transform:uppercase;
+   }
+   .pricinglink{
+    margin:20px 0 40px 0;
+    padding:15px 0;
+   }
+   .pricinginner{
+    position:relative;
+    -webkit-transition:all 0.2s ease-in; 
+    -moz-transition:all 0.2s ease-in; 
+    -o-transition:all 0.2s ease-in; 
+    transition:all 0.2s ease-in; 
+   }
+   .pricinginner:hover{
+    background:#DC3545;
+    color:#fff;
+   }
+   .pricinginner:hover .pricingtitle{
+    color:#fff;
+   }
+   .pricinginner:hover .pricingtitleunderline{
+    background:#e7f1ff;
+   }
+   .pricinginner:hover .pricetriangle{
+    border-width: 0 118px 118px 0;
+    border-color: transparent #fff transparent transparent;
+    font-size:36px;
+    color:#DC3545;
+   }
+   .pricinginner:hover .pricetriangleinner{
+    left:50px;
+    top:6px;
+   }
+   .pricinginner:hover .buynow{
+    background:#fff;
+    color:#DC3545;
+   }
+   .pricetriangle{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 84px 84px 0;
+    border-color: transparent #DC3545 transparent transparent;
+    position:absolute;
+    top:0;
+    right:0;
+    font-size:24px;
+    color:#fff;
+    font-weight:700;
+    text-align:center;
+   }
+   .pricetriangleinner{
+    display: block;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: relative;
+    left: 40px;
+    top: 2px;
+   }
+   @media (min-width: 980px) and (max-width: 1199px) {
+    .pricingouterimg {
+    width: 200px;
+    height: 200px;
+    margin: 25px auto 20px auto;
+    } 
+    
+    .pricingimg {
+    width: 184px;
+    height: 184px;
+    margin: 7px auto;
+    } 
+   
+    .pricingimg img {
+    padding: 26px 0;
+    width: 140px;
+    } 
+    }
+   
+   @media (min-width: 768px) and (max-width: 979px) {
+   
+   .pricingouterimg {
+    width: 160px;
+    height: 160px;
+    margin: 25px auto 20px auto;
+   } 
+    
+   .pricingimg {
+    width: 144px;
+    height: 144px;
+    margin: 7px auto;
+   } 
+   
+   .pricingimg img {
+    padding: 26px 0;
+    width: 95px;
+   } 
+   
+   .pricinginner:hover .pricetriangle{
+    border-width: 0 78px 78px 0;
+    font-size:24px;
+   }
+   
+   .pricinginner:hover .pricetriangleinner{
+    left:35px;
+    top:2px;
+   }
+   }
+   
+   @media (max-width: 767px) {
+   
+    .pricinglink {
+    margin: 20px 0 0 0;
+    }
+   
+    .pricingouterimg {
+    margin: 0 auto 20px auto;
+    } 
+    
+    .pricinginner{
+    padding:25px 0;
+    }
+    
+    .pricingblock .col-md-4{
+    width: 370px;
+    margin: 0 auto 55px auto!important;
+    clear:both; 
+    }
+    
+    .pricingblock .col-md-4:last-child{
+    margin-bottom: 0!important;
+    }
+   }
+   
+   @media (max-width: 429px) {
+   
+    .pricingblock .col-md-4{
+    width: auto!important;
+    } 
+    
+    .pricingouterimg {
+    width: 200px;
+    height: 200px;
+    margin: 25px auto 20px auto;
+    } 
+    
+    .pricingimg {
+    width: 184px;
+    height: 184px;
+    margin: 7px auto;
+    } 
+   
+    .pricingimg img {
+    padding: 26px 0;
+    width: 140px;
+    } 
+    }
+
+.attachment-pricing{
+    
+}
