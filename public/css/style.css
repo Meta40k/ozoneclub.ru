@@ -238,8 +238,9 @@ img { /* адаптивные картинки */
     margin:7px auto;
    }
    
-   .pricingimg img{
-    /* padding:28px 0; */
+   .pricingimg i{
+    color: #DC3545;
+    font-size: 4rem;
    }
    .pricingouterimg{
     width:236px;
